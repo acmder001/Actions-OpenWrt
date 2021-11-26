@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: WR841N-V8-test
+name: r619ac-128m-test
 
 on:
   repository_dispatch:
