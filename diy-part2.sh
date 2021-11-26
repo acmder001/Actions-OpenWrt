@@ -44,8 +44,8 @@ sed -i "s/OpenWrt /Leopard build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" pack
 
 # Add kernel build user
 [ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
-    echo 'CONFIG_KERNEL_BUILD_USER="Leopard"' >>.config ||
-    sed -i 's@\(CONFIG_KERNEL_BUILD_USER=\).*@\1$"Leopard"@' .config
+    echo 'CONFIG_KERNEL_BUILD_USER="acmder001"' >>.config ||
+    sed -i 's@\(CONFIG_KERNEL_BUILD_USER=\).*@\1$"acmder001"@' .config
 
 # Add kernel build domain
 [ -z $(grep "CONFIG_KERNEL_BUILD_DOMAIN=" .config) ] &&
